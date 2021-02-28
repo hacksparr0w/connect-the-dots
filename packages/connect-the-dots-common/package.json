@@ -1,0 +1,22 @@
+{
+  "name": "connect-the-dots-common",
+  "version": "0.0.1",
+  "description": "Code shared between connect-the-dots client and server apps",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hacksparr0w/connect-the-dots.git"
+  },
+  "keywords": [
+    "shared",
+    "code"
+  ],
+  "author": "hacksparr0w <hacksparr0w@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacksparr0w/connect-the-dots/issues"
+  },
+  "homepage": "https://github.com/hacksparr0w/connect-the-dots#readme",
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}

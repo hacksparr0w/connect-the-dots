@@ -1,0 +1,18 @@
+{
+  "http": {
+    "server": {
+      "port": 3000
+    },
+    "cors": {
+      "origin": "http://localhost:8080"
+    },
+    "sessionCookie": {
+      "httpOnly": true,
+      "maxAge": 432000,
+      "secure": false
+    }
+  },
+  "twitterApi": {
+    "bearerToken": "Enter your Twitter API Bearer Token here"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "name": "connect-the-dots-server",
+  "version": "0.0.1",
+  "description": "Fetching data from Twitter and providing a simple tracking services for the connect-the-dots app",
+  "scripts": {
+    "build": "NODE_ENV=production node ./build.js",
+    "dev": "node ./build.js",
+    "start": "node ./build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hacksparr0w/connect-the-dots.git"
+  },
+  "keywords": [
+    "twitter",
+    "api",
+    "data",
+    "fetching",
+    "tracking"
+  ],
+  "author": "hacksparr0w <hacksparr0w@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacksparr0w/connect-the-dots/issues"
+  },
+  "homepage": "https://github.com/hacksparr0w/connect-the-dots#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "connect-the-dots-common": "file:../connect-the-dots-common",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.8.53"
+  }
+}

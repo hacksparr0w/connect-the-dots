@@ -1,0 +1,40 @@
+{
+  "name": "connect-the-dots-client",
+  "version": "0.0.1",
+  "description": "An awesome web UI for the connect-the-dots app",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production node ./build.js",
+    "dev": "node ./build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hacksparr0w/connect-the-dots.git"
+  },
+  "keywords": [
+    "twitter",
+    "api",
+    "user",
+    "graph",
+    "explore"
+  ],
+  "author": "hacksparr0w <hacksparr0w@protonmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hacksparr0w/connect-the-dots/issues"
+  },
+  "homepage": "https://github.com/hacksparr0w/connect-the-dots#readme",
+  "devDependencies": {
+    "esbuild": "^0.8.52"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@material-ui/icons": "^4.11.2",
+    "axios": "^0.21.1",
+    "d3-force": "^2.1.1",
+    "d3-selection": "^2.0.0",
+    "connect-the-dots-common": "file:../connect-the-dots-common",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
